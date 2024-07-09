@@ -11,7 +11,7 @@ interface NoteProps {
 }
 
 const Note: React.FC<NoteProps> = ({ id, content, color, position, onDelete, onDrag }) => {
-  const handleDrag = (e: DraggableEvent, data: DraggableData) => {
+  const handleDrag = (_e: DraggableEvent, data: DraggableData) => {
     const newPosition = { x: data.x, y: data.y };
     onDrag(id, newPosition); // Callback to update position in parent component
   };
