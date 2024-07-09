@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+## React + TypeScript + Vite
+This project is a simple Sticky Notes application built using React, Vite, and TypeScript, featuring localStorage for persistent data storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Create Notes: Add new sticky notes with customizable colors.
+- Drag and Drop: Move notes around the screen and place them anywhere.
+- LocalStorage: Store notes locally, preserving them even after refreshing the page.
+- Delete Notes: Remove notes individually.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+- React: Frontend JavaScript library for building user interfaces.
+- Vite: Next-generation frontend tooling.
+- TypeScript: Typed superset of JavaScript for improved code quality and maintainability.
+- Tailwind CSS: Utility-first CSS framework for styling.
